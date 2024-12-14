@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 100vw;
+}
+
+.omeletteImg {
+  width: 100%;
+}
+
+section {
+  padding: 0 30px;
+}
+
+.header {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1;
+  margin-bottom: 15px;
+  color: hsl(24, 5%, 18%);
+}
+
+.dish-description {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: hsl(30, 10%, 34%);
+}
+
+.preparation-section {
+  background-color: hsl(330, 100%, 98%);
+  width: 85%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.preparation-header {
+  font-family: "Outfit", sans-serif;
+  color: hsl(332, 51%, 32%);
+  font-size: 20px;
+}
+
+.preparation-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  margin: 20px 25px;
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+}
+
+.ingredients-header,
+.instruction-header,
+.nutrition-header {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  color: hsl(14, 45%, 36%);
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.ingredients-list,
+.instruction-list {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 25px;
+  line-height: 1.5;
+}
+
+span {
+  font-weight: 600;
+}
+
+.nutrition-text {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  line-height: 1.5;
+}
+
+table {
+  font-family: "Outfit", sans-serif;
+  color: hsl(30, 10%, 34%);
+  width: 80%;
+  padding: 20px;
+}
+
+td {
+  height: 40px;
+}
+
+.table-measurment {
+  color: hsl(14, 45%, 36%);
+  font-weight: 600;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

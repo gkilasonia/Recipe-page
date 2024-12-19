@@ -27,8 +27,8 @@ In essence, this website offers a concise and visually engaging introduction to 
 
 ### Screenshot
 
-![](./images/desktop-screenshot.jpg)
-![](./images/mobile-screenshot.jpg)
+![](./images/desktop-screenshot.jpeg)
+![](./images/mobile-screenshot.jpeg)
 
 ### Links
 
